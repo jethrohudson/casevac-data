@@ -1,0 +1,74 @@
+{
+ "built": "2026-10-29",
+ "retrieved": "2026-10-28",
+ "sources": {
+  "hifld": {
+   "name": "HIFLD Open Hospitals (archived; HIFLD Open was deactivated 2025-08-26)",
+   "mirror": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/HIFLD_FEMA/MapServer/51",
+   "archive": "https://doi.org/10.3886/E239108V1",
+   "dataAsOf": "2024-05-14",
+   "license": "Public domain / 'None (Public Use)' per HIFLD metadata"
+  },
+  "cms": {
+   "name": "CMS Provider Data Catalog: Hospital General Information (xubh-q36u)",
+   "url": "https://data.cms.gov/provider-data/dataset/xubh-q36u",
+   "modified": "2026-07-22",
+   "license": "U.S. Government work, public"
+  },
+  "faa": {
+   "name": "FAA NASR 28-day subscription, APT CSV (5010 data)",
+   "cycle": "01_Oct_2026",
+   "effective": "2026-10-01",
+   "url": "https://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/NASR_Subscription/",
+   "license": "U.S. Government work, public domain"
+  },
+  "osm": {
+   "name": "OpenStreetMap via Overpass API (emergency=emergency_ward_entrance)",
+   "snapshot": "2026-10-28",
+   "license": "ODbL 1.0, (c) OpenStreetMap contributors"
+  },
+  "stroke": {
+   "name": "CDC Atlas of Heart Disease and Stroke: stroke centers by certification (TJC, DNV, HFAP/ACHC, state)",
+   "url": "https://onemap.cdc.gov/onemapservices/rest/services/NCCDPHP/CDC_hospitals/MapServer",
+   "dataAsOf": "2022",
+   "snapshot": "2026-10-29",
+   "license": "U.S. Government work (CDC), public"
+  }
+ },
+ "coverage": {
+  "total": 6159,
+  "level_any": 2222,
+  "level_general": 2188,
+  "level_peds": 84,
+  "level_I_II_general": 636,
+  "other_designation_text_only": 113,
+  "cms_matched": 4738,
+  "er_yes": 4675,
+  "er_unknown": 1421,
+  "hifld_helipad_flag_Y": 4020,
+  "faa_heliport_matched": 3256,
+  "osm_er_entrance": 341,
+  "beds": 5813,
+  "phone": 6075,
+  "website": 3325,
+  "owner": 5942,
+  "general_level_I": 278,
+  "general_level_II": 358,
+  "general_level_III": 542,
+  "general_level_IV": 993,
+  "general_level_V": 17,
+  "stroke_records_matched": 1572,
+  "stroke_unmatched": 354,
+  "stroke_ambiguous_dropped": 14,
+  "stroke_records": 1940,
+  "stroke_any": 1566,
+  "stroke_csc": 311,
+  "stroke_tsc": 73,
+  "stroke_psc": 1068,
+  "stroke_asrh": 114
+ },
+ "heliports_total": 5695,
+ "heliports_rooftop": 456,
+ "heliports_lighting_reported": 2560,
+ "heliports_surface_reported": 5695
+}

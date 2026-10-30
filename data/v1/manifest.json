@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "version": 1,
+ "generated": "2026-10-29T23:29:25Z",
+ "dataDate": "2026-10-01",
+ "sources": {
+  "hifld": "2024-05-14",
+  "cms": "2026-07-22",
+  "faa": "2026-10-01",
+  "osm": "2026-10-28"
+ },
+ "counts": {
+  "hospitals": 6159,
+  "heliports": 5695
+ },
+ "files": {
+  "hospitals.json": {
+   "sha256": "8ec583c0829b390c6755ecd381b95aae68336bae7812960fc0dead6a833960b2",
+   "size": 2744485
+  },
+  "heliports.json": {
+   "sha256": "10d5e9e720dc10f4bec38f5f65653e8f805bf881329bce3acbb4cfec1b08dfdd",
+   "size": 1082387
+  },
+  "dataset_meta.json": {
+   "sha256": "514a1be9c8f99686a1b830d9eef925311daacb5cfc6dd7787adf34551d99839c",
+   "size": 2342
+  }
+ }
+}
