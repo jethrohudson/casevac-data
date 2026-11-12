@@ -1,0 +1,15 @@
+{
+ "schema": 1,
+ "version": 1,
+ "generated": "2026-11-12T03:48:50Z",
+ "dataDate": "2026-11-11",
+ "counts": {
+  "programs": 138
+ },
+ "files": {
+  "airmed.json": {
+   "sha256": "cc63ab4e7b18480ff422879595f189aeb34d3b5486adf4753da7c94bfca12e48",
+   "size": 128004
+  }
+ }
+}
